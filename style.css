@@ -782,8 +782,13 @@ section {
   }
 
   .home-image img {
-    width: 42vw;
-    height: 42vh;
+    width: 60vw;
+    height: 30vh;
+  }
+
+  .about-image img {
+    height: 28vh;
+    width: 60vw;
   }
 
   .about {
@@ -794,11 +799,6 @@ section {
   .about h2 {
     text-align: center;
     margin: 2rem 0;
-  }
-
-  .about img {
-    width: 42vw;
-    height: 42vw;
   }
 
   .contact form {
@@ -833,5 +833,25 @@ section {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+
+  .projects {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+
+  .project {
+    width: 90vw;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+
+  .content {
+    width: 80vw; 
+  }
+  .blog-card {
+    width: 70vw;
   }
 }
